@@ -18,3 +18,12 @@ class Node:
         self.judul = judul
         self.prev = None  # Pointer ke node sebelumnya
         self.next = None  # Pointer ke node berikutnya
+        
+class DoubleLinkedList:
+    """Double Linked List untuk menyimpan playlist lagu"""
+
+    def __init__(self):
+        self.head = None   # Node pertama
+        self.tail = None   # Node terakhir
+        self.current = None  # Node yang sedang diputar
+        self.size = 0
