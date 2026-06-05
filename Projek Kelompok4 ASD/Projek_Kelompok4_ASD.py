@@ -25,5 +25,5 @@ class DoubleLinkedList:
     def __init__(self):
         self.head = None   # Node pertama
         self.tail = None   # Node terakhir
-        self.current = None  # Node yang sedang diputar
+        self.current = None  # Node yang sedang diputaraaa
         self.size = 0
